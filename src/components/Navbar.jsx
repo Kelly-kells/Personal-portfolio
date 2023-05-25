@@ -10,8 +10,18 @@ const Navbar = () => {
         }
     }
     return (
-        <div>
-            <GiHamburgerMenu />
+        <div >
+            <GiHamburgerMenu onClick={handleNav} className='absolute top-4 right-4 z-99 md:hidden'/>
+            {
+                nav ? (
+                   <div>
+                    <a href="#home"></a>
+                   </div>
+                )
+                :(
+                    <div></div>
+                )
+            }
         </div>
     )
 }
