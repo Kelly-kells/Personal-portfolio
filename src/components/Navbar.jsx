@@ -54,13 +54,13 @@ const Navbar = () => {
                 )
             }
 
-<nav className='bg-gray-200 p-5 mt-0 fixed w-full z-10 top-0 left-0 shadow-md bg-Gray-100 shadow-gray-400 '>
-                   <div className='items-center justify-between' >
-                   <ul className='flex flex-col p-4 md:p-0 mt-4 font-medium  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
-                    <a href="#home"> Home</a>
-                   </ul>
-                   </div>
-                    </nav>
+            <nav className='bg-gray-200 p-5 mt-0 fixed w-full z-10 top-0 left-0 shadow-md bg-Gray-100 shadow-gray-400 '>
+                <div className='items-center justify-between' >
+                    <ul className='flex flex-col p-4 md:p-0 mt-4 font-medium  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+                        <a href="#home" className='"block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:p-0 md:dark:text-blue-500" aria-current="page'> Home</a>
+                    </ul>
+                </div>
+            </nav>
         </div>
     )
 }
