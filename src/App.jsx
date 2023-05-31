@@ -2,6 +2,11 @@ import { useState } from 'react'
 
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Work from './components/Work'
+import Projects from "./components/Projects"
+import Experience from "./components/Experience"
+import Contact from './components/Contact'
+
 
 function App() {
 
@@ -11,6 +16,10 @@ function App() {
       <div>
         <Navbar />
         <Home/>
+        <Work/>
+        <Projects/>
+        <Experience/>
+        <Contact/>
       </div>
 
     </>
