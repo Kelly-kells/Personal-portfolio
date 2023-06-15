@@ -7,7 +7,7 @@ import "./style.css"
 
 const About = () => {
   return (
-    <div className='w-full h-screen ' id='about'>
+    <div className='w-full' id='about'>
       <div className='mt-10'>
         <h1 className='text-xl flex items-center justify-center text-2xl font-bold'> ABOUT ME</h1>
       </div>
