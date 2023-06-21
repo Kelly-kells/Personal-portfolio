@@ -35,11 +35,11 @@ const About = () => {
               <small className='text-gray-500'>various projects</small>
             </div>
           </div>
-          <article className='mt-6'> Favour is an experienced frontend developer, Proficient in Javascript,<br /> it's
+          <article className='mt-6 m-6'> Favour is an experienced frontend developer, Proficient in Javascript,<br /> it's
             liberaries and frameworks.<br /> With adequate understanding of cross-browser compatibility<br /> and web performance optimization,
             <br /> and the ability to translate design mockups into functional user interfaces. </article>
 
-          <button className='mt-8 text-center bg-blue-600 text-gray-950 w-40 rounded-lg h-10'><a href="contact">Lets Talk</a></button>
+          <button className='mt-8 text-center bg-blue-600 text-gray-950 w-40 rounded-lg h-10 m-6'><a href="contact">Lets Talk</a></button>
         </div>
       </div>
 

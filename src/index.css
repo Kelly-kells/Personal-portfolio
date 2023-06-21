@@ -11,4 +11,7 @@ body{
     background-color:#001233 ;
     /*color: #067bc2;*/
     color: white;
+    background-image: url('../src/assets/bg-texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
