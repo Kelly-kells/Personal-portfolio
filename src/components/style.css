@@ -29,4 +29,10 @@
 }
 
 
-/*----------PROJECTS------------*/
+/*----------EXPERIENCE------------*/
+.experience h2{
+    padding: 4px;
+}
+.experience small{
+  color: grey;  
+}

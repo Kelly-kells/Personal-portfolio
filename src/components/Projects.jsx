@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
 
           <div className='project '>
-            <div className="project-img mt-auto border-4 border-blue-600 rounded-md  hover:animate-pulse">
+            <div className="project-img mt-auto border-2 border-blue-600 rounded-md  hover:animate-pulse">
               <img className='w-40 md:w-40 max-sm:w-auto   ' src={pot} alt="" />
               </div>
               <div className="buttons text-center space-x-4">
